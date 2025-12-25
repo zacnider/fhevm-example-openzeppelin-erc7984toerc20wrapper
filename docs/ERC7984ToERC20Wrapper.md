@@ -1,16 +1,16 @@
 # ERC7984ToERC20Wrapper
 
-Wrapper contract to convert ERC7984 confidential tokens to ERC20 tokens
+Learn how to use OpenZeppelin ERC7984 confidential tokens
 
-## Overview
+## 📚 Overview
 
 @title EntropyERC7984ToERC20Wrapper
 @notice Wrapper contract to convert ERC7984 confidential tokens to ERC20 tokens
 @dev Demonstrates wrapping confidential tokens into standard ERC20 tokens
-This example shows:
+In this example, you will learn:
 - Wrapping ERC7984 tokens into ERC20
 - Unwrapping ERC20 back to ERC7984
-- EntropyOracle integration for random operations
+- encrypted randomness integration for random operations
 Note: Simplified implementation without OpenZeppelin ERC20 to avoid import conflicts
 
 @notice Request entropy for wrapping with randomness
@@ -32,8 +32,8 @@ Note: Simplified implementation without OpenZeppelin ERC20 to avoid import confl
 @param account Address to query
 @return Encrypted balance
 
-@notice Get EntropyOracle address
-@return EntropyOracle contract address
+@notice Get encrypted randomness address
+@return encrypted randomness contract address
 
 
 
